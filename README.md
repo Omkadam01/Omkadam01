@@ -1,8 +1,8 @@
-![Om Kadam — animated orbital banner](./download.svg)
+![Om Kadam — Computer Vision and Machine Learning](./spectral-banner.png)
 
 # Om Kadam
 
-I explore how machine learning models interpret images, how their predictions hold up under stress, and how data can support practical decisions.
+I build and study tools for spectral imaging, explainable computer vision, and applied machine learning. My projects span image acquisition, restoration, model evaluation, and data analytics.
 
 ## Start here
 
