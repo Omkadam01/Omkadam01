@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 380" role="img" aria-labelledby="title desc">
+  <title id="title">23 public GitHub projects across five areas</title>
+  <desc id="desc">Computer vision and healthcare: 8. Spectral imaging and inspection: 5. Applied machine learning: 4. Data analytics: 3. Model robustness and AI tools: 3.</desc>
+  <defs>
+    <linearGradient id="panel"><stop stop-color="#101a32"/><stop offset="1" stop-color="#17122a"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#b1befe" stroke-opacity=".08"/></pattern>
+    <style>
+      @media (prefers-reduced-motion: reduce) { .pulse { display:none } }
+    </style>
+  </defs>
+  <rect x="1" y="1" width="998" height="378" rx="22" fill="url(#panel)" stroke="#52608a"/>
+  <rect x="2" y="2" width="996" height="376" rx="21" fill="url(#grid)"/>
+  <text x="44" y="63" fill="#f3f5ff" font-family="system-ui,sans-serif" font-size="35" font-weight="700">23 public projects</text>
+  <path d="M44 87h912" stroke="#465474" />
+  <g>
+    <text x="44" y="132" fill="#e5eafe" font-family="system-ui,sans-serif" font-size="23">Computer vision &amp; healthcare</text>
+    <path d="M466 126h376" stroke="#485774" stroke-width="1"/>
+    <circle cx="466" cy="126" r="9" fill="#74dfef"/>
+    <circle class="pulse" cx="466" cy="126" r="9" fill="none" stroke="#74dfef" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.00s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.00s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="519" cy="126" r="9" fill="#74dfef"/>
+    <circle class="pulse" cx="519" cy="126" r="9" fill="none" stroke="#74dfef" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.11s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.11s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="572" cy="126" r="9" fill="#74dfef"/>
+    <circle class="pulse" cx="572" cy="126" r="9" fill="none" stroke="#74dfef" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.22s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.22s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="625" cy="126" r="9" fill="#74dfef"/>
+    <circle class="pulse" cx="625" cy="126" r="9" fill="none" stroke="#74dfef" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.33s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.33s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="678" cy="126" r="9" fill="#74dfef"/>
+    <circle class="pulse" cx="678" cy="126" r="9" fill="none" stroke="#74dfef" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.44s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.44s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="731" cy="126" r="9" fill="#74dfef"/>
+    <circle class="pulse" cx="731" cy="126" r="9" fill="none" stroke="#74dfef" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.55s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.55s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="784" cy="126" r="9" fill="#74dfef"/>
+    <circle class="pulse" cx="784" cy="126" r="9" fill="none" stroke="#74dfef" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.66s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.66s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="837" cy="126" r="9" fill="#74dfef"/>
+    <circle class="pulse" cx="837" cy="126" r="9" fill="none" stroke="#74dfef" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.77s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.77s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="949" y="133" text-anchor="end" fill="#74dfef" font-family="monospace" font-size="25" font-weight="700">8</text>
+  </g>
+  <g>
+    <text x="44" y="181" fill="#e5eafe" font-family="system-ui,sans-serif" font-size="23">Spectral imaging &amp; inspection</text>
+    <path d="M466 175h376" stroke="#485774" stroke-width="1"/>
+    <circle cx="466" cy="175" r="9" fill="#a999ff"/>
+    <circle class="pulse" cx="466" cy="175" r="9" fill="none" stroke="#a999ff" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.23s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.23s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="519" cy="175" r="9" fill="#a999ff"/>
+    <circle class="pulse" cx="519" cy="175" r="9" fill="none" stroke="#a999ff" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.34s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.34s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="572" cy="175" r="9" fill="#a999ff"/>
+    <circle class="pulse" cx="572" cy="175" r="9" fill="none" stroke="#a999ff" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.45s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.45s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="625" cy="175" r="9" fill="#a999ff"/>
+    <circle class="pulse" cx="625" cy="175" r="9" fill="none" stroke="#a999ff" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.56s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.56s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="678" cy="175" r="9" fill="#a999ff"/>
+    <circle class="pulse" cx="678" cy="175" r="9" fill="none" stroke="#a999ff" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.67s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.67s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="731" cy="175" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="784" cy="175" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="837" cy="175" r="5" fill="#283451" stroke="#566482"/>
+    <text x="949" y="182" text-anchor="end" fill="#a999ff" font-family="monospace" font-size="25" font-weight="700">5</text>
+  </g>
+  <g>
+    <text x="44" y="230" fill="#e5eafe" font-family="system-ui,sans-serif" font-size="23">Applied machine learning</text>
+    <path d="M466 224h376" stroke="#485774" stroke-width="1"/>
+    <circle cx="466" cy="224" r="9" fill="#a0edb5"/>
+    <circle class="pulse" cx="466" cy="224" r="9" fill="none" stroke="#a0edb5" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.46s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.46s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="519" cy="224" r="9" fill="#a0edb5"/>
+    <circle class="pulse" cx="519" cy="224" r="9" fill="none" stroke="#a0edb5" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.57s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.57s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="572" cy="224" r="9" fill="#a0edb5"/>
+    <circle class="pulse" cx="572" cy="224" r="9" fill="none" stroke="#a0edb5" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.68s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.68s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="625" cy="224" r="9" fill="#a0edb5"/>
+    <circle class="pulse" cx="625" cy="224" r="9" fill="none" stroke="#a0edb5" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.79s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.79s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="678" cy="224" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="731" cy="224" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="784" cy="224" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="837" cy="224" r="5" fill="#283451" stroke="#566482"/>
+    <text x="949" y="231" text-anchor="end" fill="#a0edb5" font-family="monospace" font-size="25" font-weight="700">4</text>
+  </g>
+  <g>
+    <text x="44" y="279" fill="#e5eafe" font-family="system-ui,sans-serif" font-size="23">Data analytics</text>
+    <path d="M466 273h376" stroke="#485774" stroke-width="1"/>
+    <circle cx="466" cy="273" r="9" fill="#ffc68b"/>
+    <circle class="pulse" cx="466" cy="273" r="9" fill="none" stroke="#ffc68b" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.69s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.69s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="519" cy="273" r="9" fill="#ffc68b"/>
+    <circle class="pulse" cx="519" cy="273" r="9" fill="none" stroke="#ffc68b" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.80s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.80s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="572" cy="273" r="9" fill="#ffc68b"/>
+    <circle class="pulse" cx="572" cy="273" r="9" fill="none" stroke="#ffc68b" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.91s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.91s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="625" cy="273" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="678" cy="273" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="731" cy="273" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="784" cy="273" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="837" cy="273" r="5" fill="#283451" stroke="#566482"/>
+    <text x="949" y="280" text-anchor="end" fill="#ffc68b" font-family="monospace" font-size="25" font-weight="700">3</text>
+  </g>
+  <g>
+    <text x="44" y="328" fill="#e5eafe" font-family="system-ui,sans-serif" font-size="23">Model robustness &amp; AI tools</text>
+    <path d="M466 322h376" stroke="#485774" stroke-width="1"/>
+    <circle cx="466" cy="322" r="9" fill="#efa5d1"/>
+    <circle class="pulse" cx="466" cy="322" r="9" fill="none" stroke="#efa5d1" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="0.92s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="0.92s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="519" cy="322" r="9" fill="#efa5d1"/>
+    <circle class="pulse" cx="519" cy="322" r="9" fill="none" stroke="#efa5d1" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="1.03s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="1.03s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="572" cy="322" r="9" fill="#efa5d1"/>
+    <circle class="pulse" cx="572" cy="322" r="9" fill="none" stroke="#efa5d1" opacity="0">
+      <animate attributeName="r" values="9;19;19" keyTimes="0;.18;1" begin="1.14s" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values=".8;0;0" keyTimes="0;.18;1" begin="1.14s" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="625" cy="322" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="678" cy="322" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="731" cy="322" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="784" cy="322" r="5" fill="#283451" stroke="#566482"/>
+    <circle cx="837" cy="322" r="5" fill="#283451" stroke="#566482"/>
+    <text x="949" y="329" text-anchor="end" fill="#efa5d1" font-family="monospace" font-size="25" font-weight="700">3</text>
+  </g>
+</svg>
