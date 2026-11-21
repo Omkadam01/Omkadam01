@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Explore Om Kadam’s public projects across computer vision, spectral imaging, machine learning, and analytics.">
+<title>Om Kadam | Project Explorer</title>
+<style>
+:root{color-scheme:dark;--bg:#070d1b;--panel:#0d1729;--line:#263956;--text:#eef6ff;--muted:#aabbd4;--accent:#73eaff}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 20% 8%,#142542,transparent 47rem),var(--bg);font:1rem/1.55 system-ui,sans-serif;color:var(--text)}
+a{color:var(--accent)}button,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+.wrap{width:min(1160px,calc(100% - 2rem));margin:auto}header{padding:1.4rem 0 3.1rem}.top{display:flex;justify-content:space-between;align-items:center;padding-bottom:2.4rem}.top a{font-weight:650;text-decoration:none}.home{color:var(--text)}h1,h2,h3,p{margin:0}h1{font-size:clamp(2.7rem,7vw,5.4rem);line-height:1;letter-spacing:-.065em}header p{margin-top:1rem;color:var(--muted);font-size:1.13rem;max-width:46rem}
+.layout{display:grid;grid-template-columns:1fr 1fr;gap:1rem;align-items:start}.panel{border:1px solid var(--line);background:var(--panel);border-radius:1.25rem}.map-panel{position:sticky;top:1rem;overflow:hidden}.map-title{padding:1rem 1.25rem;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center}.map-title h2{font-size:1rem}.map-title span{color:var(--muted);font-size:.9rem}
+.map{position:relative;aspect-ratio:1.22;background:radial-gradient(ellipse at 50% 48%,#1b3355,transparent 55%),radial-gradient(#46709a66 1px,transparent 1px);background-size:auto,22px 22px;isolation:isolate}.orbit{position:absolute;inset:14% 15%;border:1px solid #5275a054;border-radius:50%;transform:rotate(-19deg);pointer-events:none}.orbit.second{inset:22% 24%;transform:rotate(21deg)}canvas{position:absolute;width:100%;height:100%;pointer-events:none}
+.node{--ink:var(--accent);position:absolute;transform:translate(-50%,-50%);display:grid;justify-items:center;min-width:5.7rem;padding:.42rem .52rem;background:#101d31;color:var(--text);border:1px solid color-mix(in srgb,var(--ink) 55%,#17253a);border-radius:.72rem;font-size:clamp(.76rem,2vw,.95rem);line-height:1.25;text-align:center;white-space:nowrap}.node strong{font-size:1.25em;color:var(--ink)}.node[aria-pressed=true]{background:var(--ink);color:#081323;box-shadow:0 0 30px color-mix(in srgb,var(--ink) 35%,transparent)}.node[aria-pressed=true] strong{color:inherit}.map-hint{padding:1rem 1.25rem;color:var(--muted);border-top:1px solid var(--line);font-size:.92rem}
+.results{padding:1.15rem}.control{display:flex;flex-wrap:wrap;gap:.65rem;align-items:end}.field{flex:1;min-width:13rem}label{display:block;font-weight:650;margin-bottom:.4rem}input{width:100%;padding:.7rem .8rem;border:1px solid var(--line);background:#091324;color:var(--text);border-radius:.65rem}.clear{padding:.69rem .85rem;color:var(--text);background:#192945;border:1px solid var(--line);border-radius:.65rem}.status{color:var(--muted);margin:1rem 0 .45rem}.entries{display:grid;gap:.68rem}.entry{border:1px solid var(--line);border-left:3px solid var(--ink);background:#101d31;padding:.8rem 1rem;border-radius:.7rem}.entry h3{font-size:1.05rem}.entry a{color:var(--text);text-decoration-thickness:1px;text-underline-offset:.22rem}.entry p{color:var(--muted);margin-top:.3rem}.entry small{display:block;color:var(--ink);font-size:.83rem;margin-bottom:.2rem}footer{padding:2rem 0;color:var(--muted)}
+@media(max-width:760px){header{padding-bottom:1.6rem}.top{padding-bottom:1.7rem}.layout{grid-template-columns:1fr}.map-panel{position:static}.map{aspect-ratio:1.42}.node{min-width:4.25rem;padding:.36rem}}
+</style>
+</head>
+<body>
+<header class="wrap">
+ <nav class="top" aria-label="Profile navigation"><a class="home" href="https://github.com/Omkadam01">Om Kadam</a><a href="https://github.com/Omkadam01?tab=repositories">GitHub repositories</a></nav>
+ <h1>Project Explorer</h1><p>Explore my work in spectral imaging, explainable computer vision, machine learning, and analytics.</p>
+</header>
+<main class="wrap layout">
+ <section class="panel map-panel" aria-labelledby="map-heading">
+  <div class="map-title"><h2 id="map-heading">Project map</h2><span>23 repositories</span></div>
+  <div class="map" id="map"><div class="orbit"></div><div class="orbit second"></div><canvas aria-hidden="true"></canvas></div>
+  <p class="map-hint">Select a node to filter the project list. Node counts update with your search.</p>
+ </section>
+ <section class="panel results" aria-label="Search and browse projects">
+  <div class="control"><div class="field"><label for="query">Search projects</label><input id="query" type="search" placeholder="Try hyperspectral, restoration, or churn"></div><button class="clear" id="reset" type="button">Reset</button></div>
+  <p class="status" id="status" role="status"></p><div id="entries" class="entries"></div>
+  <noscript><a href="https://github.com/Omkadam01?tab=repositories">Browse the repositories on GitHub</a></noscript>
+ </section>
+</main>
+<footer class="wrap"><a href="https://github.com/Omkadam01">Back to GitHub profile</a></footer>
+<script>
+const groups = [{"name":"Computer vision & healthcare","short":"Vision","color":"#73eaff","items":[{"name":"GI-Vision XAI","url":"https://github.com/Omkadam01/GI-Vision-XAI","description":"Gastrointestinal image classification with visual explanations."},{"name":"Gastro-Vision","url":"https://github.com/Omkadam01/Gastro-vision","description":"A research prototype for gastrointestinal image analysis."},{"name":"HYPERLUMA","url":"https://github.com/Omkadam01/Hyperluma-Portable-Hyperspectrum-Based-Diabetic-Retinopathy-Detection","description":"A hyperspectral imaging prototype for diabetic retinopathy research."},{"name":"AI Restoration Studio","url":"https://github.com/Omkadam01/AI-Restoration-Studio","description":"An interface for restoring scanning electron microscopy images."},{"name":"Deepfake Prediction","url":"https://github.com/Omkadam01/deepfake-prediction","description":"Team Cadre’s hackathon project exploring deepfake detection."},{"name":"LeafLens XAI","url":"https://github.com/Omkadam01/LeafLens-XAI-Portable-Plant-Disease-Detector","description":"A portable plant disease classification prototype with visual explanations."},{"name":"Plant Disease AI","url":"https://github.com/Omkadam01/Plant-Disease-AI","description":"Plant disease recognition repository."},{"name":"CepaMetric","url":"https://github.com/Omkadam01/CepaMetric-Onion-Quality-Assessment","description":"Computer vision for onion quality assessment."}]},{"name":"Spectral imaging & inspection","short":"Spectral","color":"#b2a0ff","items":[{"name":"Spectrum-Aided Vision Enhancer","url":"https://github.com/Omkadam01/Spectrum-Aided-Vision-Enhancer","description":"Tools for processing and visualizing multispectral or hyperspectral imagery."},{"name":"Hyperspectral Analysis System","url":"https://github.com/Omkadam01/Hyperspectral-Analysis-System","description":"A toolkit for exploring and analyzing hyperspectral images."},{"name":"Low-Cost Hyperspectral Imager","url":"https://github.com/Omkadam01/Low-Cost-Hyperspectral-Imager","description":"A prototype for lower-cost spectral image acquisition."},{"name":"AXOVRIM Toolkit Inspector","url":"https://github.com/Omkadam01/Axovrim-Toolkit-Inspector","description":"A desktop toolkit for hyperspectral image inspection."},{"name":"Counterfeit Hologram Detector","url":"https://github.com/Omkadam01/Counterfeit-Hologram-Detector","description":"An imaging project exploring hologram authenticity checks."}]},{"name":"Applied machine learning","short":"Applied ML","color":"#90f5cc","items":[{"name":"Uplift Modeling","url":"https://github.com/Omkadam01/uplift-modeling-marketing-campaign","description":"Estimates incremental campaign response to support targeting decisions."},{"name":"Customer Churn Prediction","url":"https://github.com/Omkadam01/customer-churn-prediction","description":"Models telecom churn to explore customer retention."},{"name":"Credit Risk Prediction","url":"https://github.com/Omkadam01/credit-risk-prediction","description":"Models loan default risk using supervised learning."},{"name":"Customer Segmentation","url":"https://github.com/Omkadam01/customer-segmentation-project","description":"Groups customers using RFM features and K-means."}]},{"name":"Data analytics","short":"Analytics","color":"#88b9ff","items":[{"name":"Sales Dashboard","url":"https://github.com/Omkadam01/sales-dashboard-project","description":"Analyzes sales performance and presents key metrics in a dashboard."},{"name":"E-Commerce Analysis","url":"https://github.com/Omkadam01/ecommerce-analysis-project","description":"Explores transactions, customers, and product performance."},{"name":"EV Adoption Analytics","url":"https://github.com/Omkadam01/EV-Adoption-Analytics","description":"Explores electric-vehicle adoption trends and forecasting."}]},{"name":"Model robustness & AI tools","short":"AI research","color":"#f6a9dc","items":[{"name":"CNN Adversarial Robustness","url":"https://github.com/Omkadam01/cnn-adversarial-robustness-analysis","description":"Evaluates how image classifiers respond to adversarial perturbations."},{"name":"Neural Network Backdoor Research","url":"https://github.com/Omkadam01/backdoor-attacks-neural-networks","description":"Studies model behavior under backdoor manipulation."},{"name":"DocuMind AI","url":"https://github.com/Omkadam01/DocuMind-AI","description":"A document question-answering project."}]}];
+const positions = [[50,50],[50,14],[78,36],[71,75],[29,75],[22,36]];
+const options = [{short:"All projects",color:"#73eaff"}, ...groups];
+const map = document.querySelector("#map");
+const canvas = map.querySelector("canvas");
+const ctx = canvas.getContext("2d");
+const search = document.querySelector("#query");
+const entries = document.querySelector("#entries");
+const status = document.querySelector("#status");
+const motion = matchMedia("(prefers-reduced-motion: reduce)");
+const nodes = [];
+let selected = 0;
+let frame = 0;
+for (const [index, option] of options.entries()) {
+  const button = document.createElement("button");
+  button.className = "node";
+  button.type = "button";
+  button.style.cssText = "--ink:" + option.color + ";left:" + positions[index][0] + "%;top:" + positions[index][1] + "%";
+  const count = document.createElement("strong");
+  count.setAttribute("aria-hidden","true");
+  button.append(count, option.short);
+  button.addEventListener("click", () => { selected = index; render(); });
+  nodes.push({button,count});
+  map.append(button);
+}
+function render() {
+  const words = search.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  const matches = groups.map(group => group.items.filter(item => {
+    const haystack = [item.name,item.description,group.name].join(" ").toLowerCase();
+    return words.every(word => haystack.includes(word));
+  }));
+  const counts = matches.map(items => items.length);
+  counts.unshift(counts.reduce((sum,count) => sum + count,0));
+  nodes.forEach(({button,count},index) => {
+    button.setAttribute("aria-pressed",String(index === selected));
+    button.setAttribute("aria-label",(options[index].name || options[index].short) + ", " + counts[index] + " matching projects");
+    count.textContent = counts[index];
+  });
+  entries.replaceChildren();
+  status.textContent = counts[selected] + (counts[selected] === 1 ? " project" : " projects") + (selected ? " · " + groups[selected-1].name : "");
+  matches.forEach((items, index) => {
+    if (selected && index + 1 !== selected) return;
+    for (const item of items) {
+      const card = document.createElement("article");
+      card.className = "entry";
+      card.style.setProperty("--ink",groups[index].color);
+      const label = document.createElement("small");
+      label.textContent = groups[index].name;
+      const heading = document.createElement("h3");
+      const link = document.createElement("a");
+      link.href = item.url;
+      link.textContent = item.name;
+      heading.append(link);
+      const summary = document.createElement("p");
+      summary.textContent = item.description;
+      card.append(label,heading,summary);
+      entries.append(card);
+    }
+  });
+  if (!counts[selected]) entries.textContent = "No projects match. Try a different search or choose another category.";
+  if (motion.matches) draw(0);
+}
+function draw(time) {
+  const w = canvas.clientWidth;
+  const h = canvas.clientHeight;
+  ctx.clearRect(0,0,w,h);
+  for (let index=1;index<positions.length;index++) {
+    const [x,y] = positions[index].map((v,i) => v*(i?h:w)/100);
+    ctx.beginPath();
+    ctx.moveTo(w/2,h/2);
+    ctx.lineTo(x,y);
+    ctx.strokeStyle = options[index].color;
+    ctx.globalAlpha = selected === 0 || selected === index ? .48 : .15;
+    ctx.stroke();
+    if (!motion.matches && (selected === 0 || selected === index)) {
+      const t = (time/2500 + index/5)%1;
+      ctx.globalAlpha = Math.sin(Math.PI*t);
+      ctx.beginPath();
+      ctx.arc(w/2+(x-w/2)*t,h/2+(y-h/2)*t,3.2,0,Math.PI*2);
+      ctx.fillStyle = options[index].color;
+      ctx.fill();
+    }
+  }
+  ctx.globalAlpha = 1;
+}
+function tick(time) { draw(time); frame = requestAnimationFrame(tick); }
+function syncMotion() { cancelAnimationFrame(frame); if (motion.matches) draw(0); else frame = requestAnimationFrame(tick); }
+new ResizeObserver(() => {
+  const scale = devicePixelRatio || 1;
+  canvas.width = Math.round(canvas.clientWidth*scale);
+  canvas.height = Math.round(canvas.clientHeight*scale);
+  ctx.setTransform(scale,0,0,scale,0,0);
+  draw(0);
+}).observe(map);
+motion.addEventListener("change",syncMotion);
+search.addEventListener("input",render);
+document.querySelector("#reset").addEventListener("click",() => { selected=0;search.value="";render();search.focus(); });
+render();
+syncMotion();
+</script>
+</body>
+</html>

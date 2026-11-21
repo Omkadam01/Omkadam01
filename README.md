@@ -4,6 +4,8 @@
 
 I build and study tools for spectral imaging, explainable computer vision, and applied machine learning. My projects span image acquisition, restoration, model evaluation, and data analytics.
 
+**[Launch the interactive Project Explorer](https://omkadam01.github.io/Omkadam01/)** · Search all 23 projects and filter them from the animated map.
+
 ## Start here
 
 | Project | What to explore |
