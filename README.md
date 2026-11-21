@@ -1,4 +1,4 @@
-![Om Kadam — Computer Vision and Machine Learning](./spectral-banner.png)
+![Om Kadam — Computer Vision and Machine Learning](./spectral-motion.svg)
 
 # Om Kadam
 
