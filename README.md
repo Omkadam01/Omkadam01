@@ -1,4 +1,4 @@
-![Om Kadam — Machine Learning, Data Science, and Analytics](./profile-motion.svg)
+![Om Kadam — Machine Learning, Data Science, and Analytics](download.svg)
 
 # Hi, I’m Om Kadam
 
