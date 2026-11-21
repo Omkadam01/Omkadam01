@@ -1,11 +1,114 @@
 ![Om Kadam — Machine Learning, Data Science, and Analytics](download.svg)
-
-# Hi, I’m Om Kadam
-
-My projects explore machine learning, model robustness, and applied data science.
-
-## Featured projects
-
-- [CNN Adversarial Robustness Analysis](https://github.com/Omkadam01/cnn-adversarial-robustness-analysis) — CNN behavior under adversarial inputs.
-- [Uplift Modeling for Marketing Campaigns](https://github.com/Omkadam01/uplift-modeling-marketing-campaign) — modeling the incremental effect of a campaign.
-- [Customer Churn Prediction](https://github.com/Omkadam01/customer-churn-prediction) — predicting customer churn from historical data.
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 460" role="img" aria-labelledby="title description">
+  <title id="title">Om Kadam — Machine Learning and Data Science</title>
+  <desc id="description">A violet gravitational lens surrounds a dark sphere. Three signal trails sweep through its rings beside Om Kadam's name and research interests.</desc>
+  <defs>
+    <clipPath id="frame"><rect x="1" y="1" width="998" height="458" rx="24"/></clipPath>
+    <radialGradient id="space" cx=".76" cy=".48" r=".75">
+      <stop stop-color="#211747"/><stop offset=".48" stop-color="#0b1029"/><stop offset="1" stop-color="#050815"/>
+    </radialGradient>
+    <radialGradient id="nebula">
+      <stop stop-color="#884dff" stop-opacity=".46"/><stop offset=".47" stop-color="#6b45ff" stop-opacity=".22"/><stop offset="1" stop-color="#502bd7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sphere" cx=".4" cy=".28" r=".72">
+      <stop stop-color="#11132b"/><stop offset=".7" stop-color="#040610"/><stop offset="1" stop-color="#01020a"/>
+    </radialGradient>
+    <linearGradient id="spectrum" x2="1" y2="1">
+      <stop stop-color="#54ecf3"/><stop offset=".39" stop-color="#6880ff"/><stop offset=".71" stop-color="#b76fff"/><stop offset="1" stop-color="#ff99d5"/>
+    </linearGradient>
+    <linearGradient id="heading" x2="1" y2="1">
+      <stop stop-color="#fff"/><stop offset="1" stop-color="#c5c8ff"/>
+    </linearGradient>
+    <linearGradient id="fade">
+      <stop stop-color="#080b19" stop-opacity=".97"/><stop offset=".45" stop-color="#080b19" stop-opacity=".8"/><stop offset=".78" stop-color="#080b19" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#899bc8" stroke-opacity=".11"/>
+    </pattern>
+    <pattern id="stars" width="163" height="117" patternUnits="userSpaceOnUse">
+      <g fill="#d0dcff">
+        <circle cx="14" cy="18" r=".9" opacity=".7"/><circle cx="56" cy="67" r=".6" opacity=".5"/>
+        <circle cx="81" cy="22" r="1.15" opacity=".8"/><circle cx="133" cy="98" r="1.1" opacity=".65"/>
+        <circle cx="108" cy="53" r=".55" opacity=".5"/><circle cx="32" cy="96" r=".65" opacity=".7"/>
+        <circle cx="152" cy="38" r=".65" opacity=".85"/><circle cx="91" cy="106" r=".45" opacity=".8"/>
+      </g>
+    </pattern>
+    <filter id="glow" x="-.5" y="-.8" width="2" height="2.6">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <path id="outer" d="M-220 0a220 69 0 1 1 440 0a220 69 0 1 1-440 0"/>
+    <path id="middle" d="M166 0a166 48 0 1 1-332 0a166 48 0 1 1 332 0"/>
+    <path id="inner" d="M-125 0a125 33 0 1 0 250 0a125 33 0 1 0-250 0"/>
+    <style>
+      @media (prefers-reduced-motion: reduce) { .motion { display: none; } }
+    </style>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path d="M0 0h1000v460H0z" fill="url(#space)"/>
+    <path d="M0 0h1000v460H0z" fill="url(#grid)"/>
+    <path d="M370 0h630v460H370z" fill="url(#stars)"/>
+    <ellipse cx="739" cy="224" rx="289" ry="207" fill="url(#nebula)"/>
+    <g transform="translate(747 223)" fill="none">
+      <circle r="173" stroke="#b4b7ff" opacity=".15"/>
+      <circle r="151" stroke="#b4b7ff" stroke-dasharray="2 9" opacity=".35"/>
+      <circle r="129" stroke="#b4b7ff" stroke-dasharray="36 9 2 12" opacity=".22"/>
+      <path d="M0-186v24m0 324v24m-186-186h24m324 0h24" stroke="#aebaff" opacity=".43"/>
+      <g transform="rotate(-22)">
+        <ellipse rx="235" ry="81" stroke="#8193e8" opacity=".22"/>
+        <use href="#outer" stroke="#8d83ec" opacity=".45"/>
+        <ellipse rx="193" ry="61" stroke="#818eff" stroke-dasharray="1 6" opacity=".6"/>
+        <use href="#middle" stroke="url(#spectrum)" stroke-width="2.2" opacity=".8"/>
+        <use href="#inner" stroke="#83d9ff" stroke-width="1.7" opacity=".65"/>
+      </g>
+      <circle r="94" fill="url(#sphere)" stroke="#a681ff" stroke-width="2.2" filter="url(#glow)"/>
+      <path d="M-87-36A94 94 0 0 1 44-83M-49 80A94 94 0 0 0 90 27" stroke="url(#spectrum)" stroke-width="3" stroke-linecap="round" filter="url(#glow)"/>
+      <g transform="rotate(-22)" stroke-linecap="round">
+        <path d="M-220 0A220 69 0 0 0 220 0" stroke="#7267ed" opacity=".61"/>
+        <path d="M-166 0A166 48 0 0 0 166 0M-125 0A125 33 0 0 0 125 0" stroke="url(#spectrum)" stroke-width="2.4" filter="url(#glow)"/>
+        <g class="motion" stroke="url(#spectrum)" filter="url(#glow)">
+          <use href="#outer" stroke-width="3" stroke-dasharray="68 990">
+            <animate attributeName="stroke-dashoffset" from="0" to="-2520" dur="13s" repeatCount="indefinite"/>
+          </use>
+          <use href="#middle" stroke="#f7a8ee" stroke-width="2.6" stroke-dasharray="41 720">
+            <animate attributeName="stroke-dashoffset" from="0" to="2283" dur="12s" repeatCount="indefinite"/>
+          </use>
+          <circle r="4.3" fill="#c6ffff" stroke="none">
+            <animateMotion path="M-220 0a220 69 0 1 1 440 0a220 69 0 1 1-440 0" dur="8s" repeatCount="indefinite"/>
+          </circle>
+          <circle r="3.8" fill="#ffc2fa" stroke="none">
+            <animateMotion path="M166 0a166 48 0 1 1-332 0a166 48 0 1 1 332 0" dur="6s" repeatCount="indefinite"/>
+          </circle>
+          <circle r="2.7" fill="#ffffff" stroke="none">
+            <animateMotion path="M-125 0a125 33 0 1 0 250 0a125 33 0 1 0-250 0" dur="10s" repeatCount="indefinite"/>
+          </circle>
+        </g>
+      </g>
+      <g fill="#e7eaff">
+        <circle cx="-149" cy="-112" r="2.2"/><circle cx="156" cy="-96" r="1.8"/><circle cx="189" cy="58" r="2"/>
+        <circle cx="-114" cy="125" r="1.7"/><circle cx="101" cy="133" r="1.5"/>
+      </g>
+    </g>
+    <path d="M0 0h735v460H0z" fill="url(#fade)"/>
+    <g fill="none">
+      <path d="M49 87V47h40m822 0h40v40M49 374v40h40m822 0h40v-40" stroke="#7777bb" opacity=".67"/>
+      <path d="M56 111h391M56 345h415" stroke="#3d466c"/>
+      <path d="M57 111h72M56 345h122" stroke="url(#spectrum)" stroke-width="2"/>
+    </g>
+    <g font-family="monospace">
+      <text x="57" y="94" fill="#80e9f6" font-size="15" letter-spacing="2.3">@OMKADAM01</text>
+      <text x="58" y="282" fill="#abb7db" font-size="16">MODEL ROBUSTNESS · APPLIED ML</text>
+      <text x="58" y="382" fill="#bec9ec" font-size="13" letter-spacing="1.3">PYTHON / MACHINE LEARNING / ANALYTICS</text>
+    </g>
+    <g font-family="system-ui, sans-serif">
+      <text x="53" y="203" fill="url(#heading)" font-size="84" font-weight="750" letter-spacing="-4">Om Kadam</text>
+      <text x="58" y="244" fill="#e3e8ff" font-size="27" font-weight="500">Machine Learning &amp; Data Science</text>
+    </g>
+    <g class="motion" opacity="0">
+      <path d="M56 211h367" stroke="#adf8ff" stroke-width="1.5" filter="url(#glow)"/>
+      <animateTransform attributeName="transform" type="translate" from="0 -77" to="0 8" dur="1.5s" fill="freeze"/>
+      <animate attributeName="opacity" values="0;.85;0" dur="1.5s" fill="freeze"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="998" height="458" rx="24" fill="none" stroke="#58557f" stroke-width="2"/>
+</svg>
