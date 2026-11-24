@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 420" role="img" aria-labelledby="title description">
+  <title id="title">Om Kadam</title>
+  <desc id="description">An abstract ribbon folds through open space. Light follows the curves while Om Kadam’s name stays still.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#171919"/><stop offset="1" stop-color="#242620"/></linearGradient>
+    <linearGradient id="ribbon"><stop stop-color="#50665e"/><stop offset=".48" stop-color="#d6e4be"/><stop offset="1" stop-color="#9f9474"/></linearGradient>
+    <linearGradient id="fade"><stop stop-color="#171919"/><stop offset="1" stop-color="#171919" stop-opacity="0"/></linearGradient>
+    <clipPath id="edges"><rect width="1440" height="420" rx="16"/></clipPath>
+    <style>@media (prefers-reduced-motion: reduce) { .motion { display:none } }</style>
+  </defs>
+  <g clip-path="url(#edges)">
+    <rect width="1440" height="420" fill="url(#background)"/>
+    <g fill="none" stroke="url(#ribbon)">
+      <path d="M 592 460 C 680 266, 840 403, 913 223 S 1260 -76, 1490 110" stroke-width="1.6" opacity="0.76"/>
+      <path d="M 597 460 C 689 262, 848 398, 919 220 S 1262 -70, 1490 117" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 602 460 C 698 258, 856 393, 925 217 S 1264 -64, 1490 124" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 607 460 C 707 254, 864 388, 931 214 S 1266 -58, 1490 131" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 612 460 C 716 250, 872 383, 937 211 S 1268 -52, 1490 138" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 617 460 C 725 246, 880 378, 943 208 S 1270 -46, 1490 145" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 622 460 C 734 242, 888 373, 949 205 S 1272 -40, 1490 152" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 627 460 C 743 238, 896 368, 955 202 S 1274 -34, 1490 159" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 632 460 C 752 234, 904 363, 961 199 S 1276 -28, 1490 166" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 637 460 C 761 230, 912 358, 967 196 S 1278 -22, 1490 173" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 642 460 C 770 226, 920 353, 973 193 S 1280 -16, 1490 180" stroke-width="1.6" opacity="0.76"/>
+      <path d="M 647 460 C 779 222, 928 348, 979 190 S 1282 -10, 1490 187" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 652 460 C 788 218, 936 343, 985 187 S 1284 -4, 1490 194" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 657 460 C 797 214, 944 338, 991 184 S 1286 2, 1490 201" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 662 460 C 806 210, 952 333, 997 181 S 1288 8, 1490 208" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 667 460 C 815 206, 960 328, 1003 178 S 1290 14, 1490 215" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 672 460 C 824 202, 968 323, 1009 175 S 1292 20, 1490 222" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 677 460 C 833 198, 976 318, 1015 172 S 1294 26, 1490 229" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 682 460 C 842 194, 984 313, 1021 169 S 1296 32, 1490 236" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 687 460 C 851 190, 992 308, 1027 166 S 1298 38, 1490 243" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 692 460 C 860 186, 1000 303, 1033 163 S 1300 44, 1490 250" stroke-width="1.6" opacity="0.76"/>
+      <path d="M 697 460 C 869 182, 1008 298, 1039 160 S 1302 50, 1490 257" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 702 460 C 878 178, 1016 293, 1045 157 S 1304 56, 1490 264" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 707 460 C 887 174, 1024 288, 1051 154 S 1306 62, 1490 271" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 712 460 C 896 170, 1032 283, 1057 151 S 1308 68, 1490 278" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 717 460 C 905 166, 1040 278, 1063 148 S 1310 74, 1490 285" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 722 460 C 914 162, 1048 273, 1069 145 S 1312 80, 1490 292" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 727 460 C 923 158, 1056 268, 1075 142 S 1314 86, 1490 299" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 732 460 C 932 154, 1064 263, 1081 139 S 1316 92, 1490 306" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 737 460 C 941 150, 1072 258, 1087 136 S 1318 98, 1490 313" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 742 460 C 950 146, 1080 253, 1093 133 S 1320 104, 1490 320" stroke-width="1.6" opacity="0.76"/>
+      <path d="M 747 460 C 959 142, 1088 248, 1099 130 S 1322 110, 1490 327" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 752 460 C 968 138, 1096 243, 1105 127 S 1324 116, 1490 334" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 757 460 C 977 134, 1104 238, 1111 124 S 1326 122, 1490 341" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 762 460 C 986 130, 1112 233, 1117 121 S 1328 128, 1490 348" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 767 460 C 995 126, 1120 228, 1123 118 S 1330 134, 1490 355" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 772 460 C 1004 122, 1128 223, 1129 115 S 1332 140, 1490 362" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 777 460 C 1013 118, 1136 218, 1135 112 S 1334 146, 1490 369" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 782 460 C 1022 114, 1144 213, 1141 109 S 1336 152, 1490 376" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 787 460 C 1031 110, 1152 208, 1147 106 S 1338 158, 1490 383" stroke-width="0.85" opacity="0.36"/>
+      <path d="M 792 460 C 1040 106, 1160 203, 1153 103 S 1340 164, 1490 390" stroke-width="1.6" opacity="0.76"/>
+    </g>
+    <g class="motion" fill="none" stroke="#edf9d9" stroke-width="2" stroke-linecap="round" stroke-dasharray="85 915">
+      <path d="M 672 460 C 824 202, 968 323, 1009 175 S 1292 20, 1490 222" pathLength="1000"><animate attributeName="stroke-dashoffset" from="85" to="-915" dur="6s" repeatCount="indefinite"/></path>
+      <path d="M 747 460 C 959 142, 1088 248, 1099 130 S 1322 110, 1490 327" pathLength="1000" opacity=".65"><animate attributeName="stroke-dashoffset" from="85" to="-915" begin="-2.1s" dur="8s" repeatCount="indefinite"/></path>
+    </g>
+    <rect width="840" height="420" fill="url(#fade)"/>
+    <path d="M74 125h52" stroke="#d5e6bc" stroke-width="2"/>
+    <text x="68" y="258" fill="#f7f3e9" font-family="Georgia,serif" font-size="112" letter-spacing="-5">Om Kadam</text>
+  </g>
+</svg>

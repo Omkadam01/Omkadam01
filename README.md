@@ -1,8 +1,10 @@
-![Om Kadam · Multidisciplinary learner](./profile-ribbon.svg)
+![Om Kadam](./profile-fieldnotes.svg)
 
 # Om Kadam
 
-I’m a multidisciplinary learner. I like getting hands-on with unfamiliar ideas, building things to see how they work, and sharing what I learn along the way.
+I’m Om. I like looking under the hood of things, from a robot that senses its surroundings to the infrastructure a city depends on. GitHub is where I turn some of that curiosity into projects.
+
+Outside the code, I follow what’s changing in AI, automation, quantum computing, and aerospace. World affairs, nature, and film help me think about the people, places, and stories behind those changes.
 
 **[Launch the interactive Project Explorer](https://omkadam01.github.io/Omkadam01/)** · Search all 23 projects and filter them from the animated map.
 
