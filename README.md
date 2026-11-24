@@ -1,8 +1,8 @@
-![Om Kadam — Computer Vision and Machine Learning](./spectral-motion.svg)
+![Om Kadam · Multidisciplinary learner](./profile-ribbon.svg)
 
 # Om Kadam
 
-I build and study tools for spectral imaging, explainable computer vision, and applied machine learning. My projects span image acquisition, restoration, model evaluation, and data analytics.
+I’m a multidisciplinary learner. I like getting hands-on with unfamiliar ideas, building things to see how they work, and sharing what I learn along the way.
 
 **[Launch the interactive Project Explorer](https://omkadam01.github.io/Omkadam01/)** · Search all 23 projects and filter them from the animated map.
 
